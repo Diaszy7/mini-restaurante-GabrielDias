@@ -4,35 +4,15 @@
   <meta charset="UTF-8">
   <title>Cardápio - Sushi Premium</title>
   <link rel="stylesheet" href="css/style.css">
-
-  <style>
-    table {
-      width: 95%;
-      margin: 20px auto;
-      border-collapse: collapse;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-    th, td {
-      border: 2px solid #1a1a1a;
-      padding: 14px;
-      text-align: center;
-    }
-    th {
-      background-color: #e63946;
-      color: white;
-      font-size: 1.2em;
-    }
-    tr:nth-child(even) {
-      background-color: #f8f8f8;
-    }
-  </style>
 </head>
 <body>
   <header>
-    <h1>Nosso Cardápio</h1>
+    <img src="img/logo.png" alt="Logo Sushi Premium" class="logo">
+    <h1>Sushi Premium</h1>
     <nav>
       <ul>
         <li><a href="index.html">Início</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
         <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
@@ -41,38 +21,33 @@
   <main>
     <section>
       <h2>Pratos Principais</h2>
-      <table>
-        <tr>
-          <th>Prato</th>
-          <th>Descrição</th>
-          <th>Preço</th>
-        </tr>
-        <tr>
-          <td>Sushi Combo 12 peças</td>
-          <td>Seleção variada de sushis frescos</td>
-          <td>R$ 48,00</td>
-        </tr>
-        <tr>
-          <td>Sashimi 15 peças</td>
-          <td>Finíssimos cortes de salmão e atum</td>
-          <td>R$ 59,00</td>
-        </tr>
-        <tr>
-          <td>Yakissoba</td>
-          <td>Macarrão oriental com legumes e frango</td>
-          <td>R$ 32,00</td>
-        </tr>
-        <tr>
-          <td>Temaki Especial</td>
-          <td>Alga crocante com salmão e cream cheese</td>
-          <td>R$ 22,00</td>
-        </tr>
-        <tr>
-          <td>Hot Roll</td>
-          <td>Sushi empanado e crocante</td>
-          <td>R$ 28,00</td>
-        </tr>
-      </table>
+      <div class="menu-grid">
+        <div class="card">
+          <h3>Sushi Combo 12 peças</h3>
+          <p>Seleção variada de sushis frescos</p>
+          <span class="preco">R$ 48,00</span>
+        </div>
+        <div class="card">
+          <h3>Sashimi 15 peças</h3>
+          <p>Finíssimos cortes de salmão e atum</p>
+          <span class="preco">R$ 59,00</span>
+        </div>
+        <div class="card">
+          <h3>Yakissoba</h3>
+          <p>Macarrão oriental com legumes e frango</p>
+          <span class="preco">R$ 32,00</span>
+        </div>
+        <div class="card">
+          <h3>Temaki Especial</h3>
+          <p>Alga crocante com salmão e cream cheese</p>
+          <span class="preco">R$ 22,00</span>
+        </div>
+        <div class="card">
+          <h3>Hot Roll</h3>
+          <p>Sushi empanado e crocante</p>
+          <span class="preco">R$ 28,00</span>
+        </div>
+      </div>
     </section>
 
     <section class="chef">
@@ -86,19 +61,18 @@
     </section>
 
     <section class="galeria">
-        <h2>Galeria de Sabores</h2>
-        <div class="galeria-container">
-          <img class="galeria-item" src="img/sushi1.jpg" alt="Sushi Tradicional">
-          <img class="galeria-item" src="img/sushi2.jpg" alt="Sushi Colorido">
-          <img class="galeria-item" src="img/sushi3.jpg" alt="Sushi Especial">
-          <img class="galeria-item" src="img/sushi4.jpg" alt="Combinado de Sushi">
-        </div>
-      </section>
-      
+      <h2>Galeria de Sabores</h2>
+      <div class="galeria-container">
+        <img src="img/sushi1.jpg" alt="Sushi Tradicional">
+        <img src="img/sushi2.jpg" alt="Sushi Colorido">
+        <img src="img/sushi3.jpg" alt="Sushi Especial">
+        <img src="img/sushi4.jpg" alt="Combinado de Sushi">
+      </div>
+    </section>
 
-    <p>
+    <p style="text-align: center; margin-top: 20px;">
       🌐 Confira mais novidades em nosso 
-      <a href="https://www.instagram.com/b_diasz?igsh=MTQ2NDNlamI1cHN3NA%3D%3D&utm_source=qr" target="_blank">Instagram oficial</a>.
+      <a href="https://www.instagram.com/b_diasz" target="_blank">Instagram oficial</a>.
     </p>
   </main>
 
